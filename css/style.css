@@ -10,16 +10,18 @@
   position: relative;
   left: 50%;
   float: left;
-  float: left;
   position: relative; 
   right:50%;
-  display: block;
   display: block;
   padding: 10px 20px;
   color: #fff;
   text-decoration: none;
+}
+#navbar-container {  
   background-color: #000;
   text-decoration: underline overline;
+  float: left;
+  display: block;
 }
 #sidebar {
   position: fixed;
