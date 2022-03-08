@@ -1,27 +1,37 @@
 #main-navbar {
   background-color: blue;
   overflow: hidden;
+}
+#navbar-container { 
   float: left;
   width: 100%;
-  position: relative;
+  position: relative; 
+}
+#navbar-container ul {
+  float: left;
+  list-style-type: none;
   margin: 0;
   padding: 0;
-  left: 50%;
-  float: left;
-  right:50%;
-  display: block;
-  color: #fff;
-  text-decoration: none;
-}
-#navbar-container {  
-  background-color: #000;
-  text-decoration: underline overline;
-  float: left;
-  display: block;
-  position: relative; 
-  padding: 10px 20px;
-  list-style-type: none;
   position: relative;
+  left: 50%;
+}
+#navbar-container ul li {
+  float: left;
+  display: block;
+  position: relative;
+  right:50%;
+}
+#navbar-container ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+}
+#navbar-container ul li a:hover {
+  background-color: #000;
+}
+#onpage {
+  text-decoration: underline overline;
 }
 #sidebar {
   position: fixed;
@@ -29,12 +39,20 @@
   background-color: red;
   height: 100%;
   width: 20%;
-  list-style-type: none;
-  text-align: center;
+}
+#sidebar-container ul {
   padding: 0;
-  display: block;
-  padding: 15px 0;
-  color: #fff;
+}
+#sidebar-container ul li {
   text-decoration: none;
+  list-style-type: none;
+}
+#sidebar-container ul li a {
+  padding: 15px 0;
+  text-align: center;
+  display: block;
+  color: #fff;
+}
+#sidebar-container ul li a:hover {
   background-color: #000;
 }
